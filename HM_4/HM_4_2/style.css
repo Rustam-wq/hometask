@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background: white;
+    height: 100vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 30vw;
+    height: 80vh;
+    border: 1px solid grey;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 85%;
+}
+label{
+    display: block;
+    margin: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 25vw;
+    height: 5vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 1vh;
+}
+button{
+    margin-top: 2vh;
+    margin-bottom: -2vh;
+    width: 26vw;
+    height: 5vh;
+    border-radius: 1vh;
+    background-color: lightskyblue;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+button:hover{
+    background-color: deepskyblue;
+}
+input[type="text"]{
+    text-overflow: ellipsis;
+}
+h2{
+    margin-top: 3vh;
+    color: grey;
+    font-size: 25px;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    margin-top: -2vh;
+}
+a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+.icon{
+    background-image: url("facebook.png");
+    background-size: cover;
+    background-position: center;
+    width: 3vh;
+    height: 3vh;
+    margin-right: 1vh   ;
+}
+.sing{
+    font-size: 20px;
+    font-weight: bold;
+    color: #204b81;
+}
+.reset{
+    font-size: 20px;
+    color: #204b81;
+    margin-top: 0;
+}
+
+.box_2{
+    width: 30vw;
+    height: 7vh;
+    border: 1px solid grey;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg{
+    font-size: 20px;
+}
